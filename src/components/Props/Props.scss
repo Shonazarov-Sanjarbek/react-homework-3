@@ -1,0 +1,36 @@
+.props{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 0;
+    border: 1px solid red;
+    
+    &__subtitle{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 42px;
+        font-weight: 800;
+        line-height: 56px;
+    }
+    &__collection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__item{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    &__img{
+        width: 100%;
+        border: 1px solid blue;
+    }
+}
